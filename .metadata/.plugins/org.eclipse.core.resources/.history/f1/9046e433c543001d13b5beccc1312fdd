@@ -1,0 +1,16 @@
+package Utilits;
+
+import org.openqa.selenium.Dimension;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class Helper {
+	public AndroidDriver driver;
+	
+	public void swipe(double Sp,double ep,double ap)
+	{
+		Dimension size = driver.manage().window().getSize();
+		           
+	}
+
+}

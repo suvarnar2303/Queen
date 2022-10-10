@@ -1,0 +1,23 @@
+package tetscase;
+
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+import Utilits.Helper;
+
+public class Demo extends Base_test{
+	
+	@Test
+	public void tap() throws InterruptedException
+	{
+		driver.findElementByXPath("//android.widget.TextView[@content-desc=\"Graphics\"]").click();
+		//List<WebElement> ele = driver.findElementsByAccessibilityId("Drawable");
+		Thread.sleep(2000);
+		Helper.ScrollIntoview(driver, driver.findElementsByAccessibilityId("Drawable"));
+		Thread.sleep(2000);
+		
+	}
+
+}

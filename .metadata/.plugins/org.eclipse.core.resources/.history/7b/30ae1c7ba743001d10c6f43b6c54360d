@@ -1,0 +1,20 @@
+package Utilits;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.touch.TouchActions;
+
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidDriver;
+
+public class Helper {
+	public static AndroidDriver driver;
+	 public static  void dragAndDrop(WebElement srs, WebElement dst)
+	{ 
+		 TouchAction act=new TouchAction(driver);
+		 act.longPress(element(srs)).moveTo
+		 
+		
+	}
+	
+
+}

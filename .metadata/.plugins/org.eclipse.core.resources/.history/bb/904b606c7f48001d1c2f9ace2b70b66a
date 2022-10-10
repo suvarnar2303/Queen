@@ -1,0 +1,22 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="6c6fbb">  <td>22/10/09 21:11:56</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Base_Test.OpenApp()[pri:0, instance:testcases.SelectItem@38bc8ab5]">&gt;&gt;OpenApp</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1682463303</td>   <td></td> </tr>
+<tr bgcolor="6c6fbb">  <td>22/10/09 21:14:45</td>   <td>168952</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Base_Test.tearDownClass()[pri:0, instance:testcases.SelectItem@38bc8ab5]">&lt;&lt;tearDownClass</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1682463303</td>   <td></td> </tr>
+<tr bgcolor="6c6fbb">  <td>22/10/09 21:14:45</td>   <td>168920</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Base_Test.teardownMethod(org.testng.ITestResult)[pri:0, instance:testcases.SelectItem@38bc8ab5]">&lt;&lt;teardownMethod</td> 
+<td>&nbsp;</td>  <td>main@1682463303</td>   <td></td> </tr>
+<tr bgcolor="999395">  <td>22/10/09 21:14:45</td>   <td>168909</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="SelectItem.Select()[pri:0, instance:testcases.SelectItem@38bc8ab5]">Select</td> 
+  <td>main@1682463303</td>   <td></td> </tr>
+<tr bgcolor="6c6fbb">  <td>22/10/09 21:11:56</td>   <td>-487</td> <td title="&gt;&gt;Base_Test.setUpSuite()[pri:0, instance:testcases.SelectItemByfeatchexcel@8646db9]">&gt;&gt;setUpSuite</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1682463303</td>   <td></td> </tr>
+<tr bgcolor="6c6fbb">  <td>22/10/09 21:14:54</td>   <td>177876</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Base_Test.teardownMethod(org.testng.ITestResult)[pri:0, instance:testcases.SelectItemByfeatchexcel@8646db9]">&lt;&lt;teardownMethod</td> 
+<td>&nbsp;</td>  <td>main@1682463303</td>   <td></td> </tr>
+<tr bgcolor="6c6fbb">  <td>22/10/09 21:14:46</td>   <td>169613</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&gt;&gt;Base_Test.OpenApp()[pri:0, instance:testcases.SelectItemByfeatchexcel@8646db9]">&gt;&gt;OpenApp</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1682463303</td>   <td></td> </tr>
+<tr bgcolor="6c6fbb">  <td>22/10/09 21:14:55</td>   <td>178167</td> <td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Base_Test.tearDownClass()[pri:0, instance:testcases.SelectItemByfeatchexcel@8646db9]">&lt;&lt;tearDownClass</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@1682463303</td>   <td></td> </tr>
+<tr bgcolor="d1af89">  <td>22/10/09 21:14:54</td>   <td>177872</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="SelectItemByfeatchexcel.Select()[pri:0, instance:testcases.SelectItemByfeatchexcel@8646db9]">Select</td> 
+  <td>main@1682463303</td>   <td></td> </tr>
+</table>

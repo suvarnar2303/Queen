@@ -1,0 +1,5 @@
+Feature: print hello world
+
+Scenario: hello Wrold scenrio
+
+  * print 'hello world'

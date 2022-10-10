@@ -1,0 +1,17 @@
+package tetscase;
+
+import org.testng.annotations.Test;
+
+public class Scroll extends Base_test{
+	
+	
+	
+	@Test
+	public void scroll()
+	{
+		driver.findElement(By.)
+	}
+	
+	
+
+}

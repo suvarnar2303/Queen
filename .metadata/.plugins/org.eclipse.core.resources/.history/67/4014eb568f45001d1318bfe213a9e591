@@ -1,0 +1,30 @@
+package testcases;
+
+import java.util.List;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class Sell extends Base_Test{
+	
+	@Test()
+	public void clickSell() throws InterruptedException
+	{
+		
+		List<WebElement>ele=(List<WebElement>) driver.findElement(By.xpath("//span[text()='Don't Change']"));
+		if(ele.size()>0)
+		{
+			ele.get(0).click();
+		}
+		Thread.sleep(2000);	
+		driver.findElement(By.xpath("//a[text()='Sell']")).click();
+		String title = driver.getTitle();
+		Assert.assertEquals(title, "Amazon.com: Sell Products Online with Selling on Amazon.");
+		System.out.println("testcase is pass");
+		
+	}
+
+}

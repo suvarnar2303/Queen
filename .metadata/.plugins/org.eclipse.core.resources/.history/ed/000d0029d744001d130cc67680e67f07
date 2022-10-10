@@ -1,0 +1,28 @@
+package tetscase;
+
+import org.openqa.selenium.Dimension;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.android.AndroidTouchAction;
+
+public class Scroll extends Base_test{
+	
+	
+	
+	@Test
+	public void scroll()
+	{
+	      driver.findElementByXPath( "//android.widget.TextView[@content-desc=\"Graphics\"]").click();
+	     // driver.findElementByXPath("//android.widget.TextView[@content-desc=\"Animation\"]");
+	      Dimension size = driver.manage().window().getSize();
+	          
+	      
+	      
+	      AndroidTouchAction act=new AndroidTouchAction(driver);
+	      
+	      
+	}
+	
+	
+
+}

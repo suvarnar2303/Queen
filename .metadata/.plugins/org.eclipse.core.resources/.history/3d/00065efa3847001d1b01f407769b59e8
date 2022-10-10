@@ -1,0 +1,21 @@
+package testcases;
+
+import io.restassured.RestAssured;
+import io.restassured.http.Method;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
+
+public class rest {
+
+	public static void main(String[] args) {
+		RestAssured.baseURI="https://reqres.in/";
+		RequestSpecification req = RestAssured.given();
+		Response request = req.request(Method.GET, "/api/users/2");
+		                   ResponseSpecification res = req.response();
+		                   System.out.println(res.toString());
+		            
+
+	}
+
+}

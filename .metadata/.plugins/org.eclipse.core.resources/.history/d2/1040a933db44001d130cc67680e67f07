@@ -1,0 +1,24 @@
+package Utilits;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+public class ExtentReport {
+	
+	public void Extentreport()
+	{
+		ExtentSparkReporter ex=new ExtentSparkReporter(System.getProperty("user.dir")+"\\Reports\\ravi.html");
+		ex.config().setDocumentTitle("Automation Appium testing");
+		ex.config().setReportName("mobileTesting result");
+	        ExtentReports extent = new ExtentReports();
+	        extent.attachReporter(ex);
+	        extent.setSystemInfo("Ravi", "automation TestEnginerr");
+		
+		
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,16 @@
+package Utilits;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class Base_test {
+
+	public static void main(String[] args) {
+		DesiredCapabilities cap=new DesiredCapabilities();
+		cap.setCapability("platformName","Android" );
+		cap.setCapability("deviceName", "Samsung a50");
+		cap.setCapability("platformVesrion", "11");
+		cap.setCapability("udid", "RZ8M90QTAVH");
+
+	}
+
+}
